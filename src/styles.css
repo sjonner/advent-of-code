@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.Navigation {
+  flex: 0 0 100px;
+  padding-right: 10px;
+}
+.Navigation a {
+  display: block;
+}
+.Navigation .active {
+  font-weight: bold;
+}
+
+.Content {
+  flex: 1 1 auto;
+  word-break: break-all;
+}
